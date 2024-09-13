@@ -1,0 +1,226 @@
+/* shared Contents */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Work Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.nav {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+
+}
+
+.page-title {
+    margin-bottom: 150px;
+}
+
+.banner {
+    padding: 0 240px;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    padding-top: 50px;
+}
+
+.head-line>h4 {
+    color: rgb(19, 19, 19);
+
+
+
+    font-size: 45px;
+
+    font-weight: 700;
+}
+
+
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.title-content {
+    color: rgb(114, 114, 114);
+
+    font-family: Work Sans;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+
+.header-title {
+
+    font-size: 16px;
+
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+
+
+
+
+}
+
+.title-content {
+
+
+    text-align: center;
+}
+
+.header-title h1 {
+    color: rgb(19, 19, 19);
+
+    font-size: 64px;
+
+    font-weight: 700;
+
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 1.2rem;
+    color: rgb(255, 255, 255);
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-poster {
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* quick Styles */
+.quick-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+.content-container{
+    margin-top: 200px;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+
+}
+
+.content-container h3 {
+    font-family: Work Sans;
+
+    font-size: 45px;
+
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
+
+.content-container p {
+    color: rgb(114, 114, 114);
+
+    font-family: Work Sans;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    
+}
+.quick{
+    color: rgb(114, 114, 114);
+}
+.orange{
+    color: orange;
+}
+
+@media screen and (max-width: 576px) {
+
+    nav   {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .head-line {
+        text-align: center;
+    }
+
+    .nav-list {
+
+        padding: 0;
+    }
+
+
+    .page-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-content {
+        padding: 0px;
+    }
+
+    .main-poster img {
+        width: 100%;
+
+    }
+    .img-container{
+        grid-template-columns: 1fr;
+        padding: 0 50px;
+    }
+    .quick-list{
+        flex-direction: column;
+          
+    }
+    .content-container{
+        margin-top: 0;
+    }
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 997px) {
+    .main-poster img {
+        width: 100%;
+
+    }
+
+    .head-line {
+        text-align: center;
+    }
+    
+
+
+
+}
